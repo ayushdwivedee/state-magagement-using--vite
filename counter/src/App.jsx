@@ -1,12 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import counter from './components/counter'
+
+
 import Counter from './components/counter'
 function App() {
   return (
     <>
+      <h3>My counter app to increase and decrease number</h3>
        <Counter/>
     </>
   )
